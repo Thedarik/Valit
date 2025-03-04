@@ -37371,7 +37371,7 @@ var $async$uq=A.H(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:g=A.asB(null)
 p=4
 s=7
-return A.R(g.Hh("http://141.136.42.126:8090/get_user/"+b,t.z),$async$uq)
+return A.R(g.Hh("https://paxtakoredu.uz/get_user/"+b,t.z),$async$uq)
 case 7:n=d
 if(n.a!=null){m=n.a
 l=m.h(0,"id")
@@ -37405,7 +37405,7 @@ uk(){var s=0,r=A.L(t.Gn),q,p
 var $async$uk=A.H(function(a,b){if(a===1)return A.I(b,r)
 while(true)switch(s){case 0:p=A
 s=3
-return A.R(A.asB(null).Hh("http://141.136.42.126:8090/get_all_users/",t.z),$async$uk)
+return A.R(A.asB(null).Hh("https://paxtakoredu.uz/get_all_users/",t.z),$async$uk)
 case 3:q=p.aC1(b.a)
 s=1
 break
