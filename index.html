@@ -1864,17 +1864,26 @@
                     maxsus ishlab chiqilgan professional platforma. Faqat bizning hamkor 
                     markazlarimiz sertifikatlarini qabul qilamiz.
                 </p>
+                <div style="margin: 20px 0; padding: 16px; background: rgba(59, 130, 246, 0.1); border-radius: 12px; border-left: 4px solid var(--primary-500);">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                        <i class="fas fa-user-tie" style="color: var(--primary-500);"></i>
+                        <span style="font-weight: 600; color: var(--primary-600);">Developer:</span>
+                    </div>
+                    <p style="margin: 0; color: var(--gray-700); font-size: 14px;">
+                        <strong>Samandar Bakhodirovich</strong> - Full-Stack Developer
+                    </p>
+                </div>
                 <div class="social-links">
-                    <a href="#" class="social-link" aria-label="Telegram">
+                    <a href="https://t.me/thedarik" target="_blank" class="social-link" aria-label="Telegram - Thedarik">
                         <i class="fab fa-telegram"></i>
                     </a>
-                    <a href="#" class="social-link" aria-label="Facebook">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="#" class="social-link" aria-label="Instagram">
+                    <a href="https://www.instagram.com/bakhodirovich_samandar/" target="_blank" class="social-link" aria-label="Instagram - Bakhodirovich Samandar">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#" class="social-link" aria-label="LinkedIn">
+                    <a href="https://github.com/Thedarik" target="_blank" class="social-link" aria-label="GitHub - Thedarik">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samandar-eshpulatov-5175802b6/" class="social-link" aria-label="LinkedIn">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
@@ -1900,24 +1909,57 @@
             </div>
             
             <div class="footer-section">
-                <h3>Aloqa</h3>
+                <h3>Aloqa va Yordam</h3>
                 <div style="margin-bottom: 16px;">
                     <i class="fas fa-phone" style="margin-right: 12px; color: var(--primary-400);"></i>
-                    <span>+998 78 888 00 88</span>
+                    <span>+998 50 100 44 55</span>
                 </div>
                 <div style="margin-bottom: 16px;">
                     <i class="fas fa-envelope" style="margin-right: 12px; color: var(--primary-400);"></i>
-                    <span>partners@eduverify.uz</span>
+                    <span>thedarik2021@gmail.com</span>
                 </div>
-                <div>
+                <div style="margin-bottom: 20px;">
                     <i class="fas fa-map-marker-alt" style="margin-right: 12px; color: var(--primary-400);"></i>
                     <span>Toshkent shahar, Yunusobod tumani</span>
+                </div>
+                
+                <!-- Developer Contact Section -->
+                <div style="background: var(--gradient-primary); padding: 16px; border-radius: 16px; margin-top: 20px;">
+                    <h4 style="color: white; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px;">
+                        <i class="fas fa-code"></i>
+                        Texnik Qo'llab-quvvatlash
+                    </h4>
+                    <div style="color: rgba(255,255,255,0.9); font-size: 14px; line-height: 1.5;">
+                        <p style="margin: 0 0 8px 0;">
+                            <strong>Samandar Bakhodirovich</strong><br>
+                            Full-Stack Developer
+                        </p>
+                        <div style="display: flex; gap: 12px; margin-top: 12px;">
+                            <a href="https://t.me/thedarik" target="_blank" style="color: white; text-decoration: none; display: flex; align-items: center; gap: 6px; font-size: 13px;">
+                                <i class="fab fa-telegram"></i>
+                                @thedarik
+                            </a>
+                            <a href="https://github.com/Thedarik" target="_blank" style="color: white; text-decoration: none; display: flex; align-items: center; gap: 6px; font-size: 13px;">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2025 EduVerify - Hamkor Ta'lim Markazlari Platformasi. Barcha huquqlar himoyalangan.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                <p>&copy; 2025 EduVerify - Hamkor Ta'lim Markazlari Platformasi. Barcha huquqlar himoyalangan.</p>
+                <div style="display: flex; align-items: center; gap: 8px; color: var(--gray-400); font-size: 14px;">
+                    <i class="fas fa-heart" style="color: #ef4444;"></i>
+                    <span>Developed by</span>
+                    <a href="https://github.com/Thedarik" target="_blank" style="color: var(--primary-400); text-decoration: none; font-weight: 600;">
+                        Samandar Bakhodirovich
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -2875,7 +2917,7 @@
                     transition: all 0.3s ease;
                 }
                 
-                /* Improved mobile responsiveness */
+                /* Enhanced footer responsive design */
                 @media (max-width: 640px) {
                     .hero-badge {
                         font-size: 12px;
@@ -2888,6 +2930,15 @@
                     
                     .stat-number {
                         font-size: 32px;
+                    }
+                    
+                    .footer-bottom {
+                        text-align: center;
+                    }
+                    
+                    .footer-bottom > div {
+                        flex-direction: column !important;
+                        text-align: center;
                     }
                 }
             `;
